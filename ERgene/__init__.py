@@ -5,7 +5,7 @@ Revised on Thur Mar 18 16:04:00 2021
 
 @author: Starlitnightly
 
-New Version 1.2.3
+New Version 1.2.4
 """
 import itertools
 import numpy as np
