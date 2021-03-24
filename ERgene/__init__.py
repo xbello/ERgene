@@ -52,7 +52,6 @@ def FindERG(data, depth=2, sort_num=20, verbose=False):
     result=[]#result
     bucket_size = 1000
     for i in itertools.combinations(data.columns[0:depth], 2):
-        start = time.time()
         count=count+1
         test=data.replace(0,np.nan).dropna()
 
